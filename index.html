@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lojinha do Sr. Miagui</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="scripts/scripts.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monoton&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Nunito+Sans:wght@400;700&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500&family=Nunito+Sans:wght@400;700&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://upload.wikimedia.org/wikipedia/en/thumb/8/89/Japan-icon.svg/640px-Japan-icon.svg.png"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-container">
+        <h1>Sr. Miagui Store</h1>
+        <p class="header-container-text">O que você está procurando ?</p>
+        <img
+          src="imagens/Steve-Zondicons-Search.svg"
+          alt="Lupa de buscar dentro do conteiner de busca"
+          class="lupa"
+        />
+        <button class="back-button" id="showScreen1" onclick="showScreen1()">
+          <img
+            src="imagens/backbutton.svg"
+            alt="Botão de voltar para a página inicial"
+            class="back-button-image"
+          />
+        </button>
+      </div>
+    </header>
+
+    <section id="screen1">
+      <main>
+        <div class="landing-page">
+          <img
+            src="https://images.unsplash.com/photo-1530795318892-5cdc7a87d71b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+            alt="Imagem de uma vitrine colorida dentro de uma loja asiática"
+          />
+        </div>
+
+        <div class="container-steps">
+          <div class="step">
+            <img
+              src="https://images.unsplash.com/photo-1548345680-f5475ea5df84?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1173&q=80"
+              alt="Imagem de localização em um celular"
+            />
+            <p class="container-steps">Visite nossa loja</p>
+          </div>
+
+          <div class="step">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1678060796715-937bc39b90df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1758&q=80"
+              alt="Imagen com fundo cor de rosa com vários carrinhos de compra"
+            />
+            <p class="container-steps">Selecione os produtos</p>
+          </div>
+
+          <div class="step">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1676465057157-342816cc6594?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80"
+              alt="Fundo tiffany com duas sacolas rosê uma grande e outra pequena"
+            />
+            <p class="container-steps">Adicione a sacola</p>
+          </div>
+
+          <div class="step">
+            <img
+              src="https://images.unsplash.com/photo-1633526544365-a98d534c9201?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+              alt="Mesa de madeira com algumas castanhas em um pote e ao centro uma maquininha de cartão que está sendo utilizado por uma pessoa que está aproximando um cartão dela."
+            />
+            <p class="container-steps">Compre!</p>
+          </div>
+        </div>
+
+        <div class="container-third-screen">
+          <div class="container-products">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1674726322489-f3873671fd37?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=627&q=80"
+              alt="4 Sacolas genérica da cor prata"
+            />
+            <button class="products" id="showScreen2" onclick="showScreen2()">
+              Veja nossos Produtos
+            </button>
+          </div>
+          <div class="container-info">
+            <img
+              src="https://images.unsplash.com/photo-1503924986277-3f922045c7bb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1093&q=80"
+              alt="Fachada de loja asiática a noite em neon"
+            />
+          </div>
+
+          <div class="contact">
+            <p>Contato: +55 45 99801-7803</p>
+            <p>Email: sr.miaguistore@gmail.com</p>
+            <p>CNPJ: 12.345.678/0001-90</p>
+            <p>Localização: Tokyo, Japan</p>
+          </div>
+        </div>
+      </main>
+    </section>
+
+    <section id="screen2" style="display: none">
+      <main>
+        <div class="landing-page">
+          <img
+            src="https://images.unsplash.com/photo-1530795318892-5cdc7a87d71b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+            alt="Imagem de uma vitrine colorida dentro de uma loja asiática"
+          />
+        </div>
+
+        <div class="container-register">
+          <div class="container-register-nome">
+            <div class="lineInput">
+              <label for="Produto">Produto</label>
+              <input type="text" id="produto" placeholder="Nome do produto" />
+            </div>
+          </div>
+
+          <div class="container-register-preco">
+            <div class="lineInput">
+              <label for="Preco">Preço</label>
+              <input type="number" id="preco" placeholder="Valor do Produto" />
+            </div>
+          </div>
+
+          <div>
+            <button class="container-register-cadastrar">Cadastrar</button>
+            <button class="container-register-excluir">Excluir</button>
+          </div>
+
+          <div class="container-register-descrição">
+            <div class="lineInput">
+              <label for="Descricao">Descrição</label>
+              <textarea
+                type="text"
+                id="descricao"
+                placeholder="Descrição"
+                required
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="container-register-png">
+            <input type="file" id="image-input" class="custom-file-input" multiple/>
+            <button onclick="addImage()">Adicionar Imagem</button>
+            <div id="image-container"></div>
+          </div>
+          
+          <div class="container-products-list">
+            <div class="image-preview-container">
+              <img id="image-preview" src="#" alt="Image Preview" />
+            </div>
+          </div>
+          
+
+        </div>
+      </main>
+    </section>
+    <footer class="container-footer">
+      <p>&copy 2023 - Todos os direitos reservados. Conteúdo licenciado.</p>
+      <div class="social-icon">
+        <img
+          src="imagens/logo-github.svg"
+          alt="Logo Github"
+          class="social-icon-github"
+          onclick="redirecionar('https://github.com/JosueObadovski/Sr-Miagui-Store')"
+        />
+        <img
+          src="imagens/logo-whatsapp.svg"
+          alt="Logo Whatsapp"
+          class="social-icon-whatsapp"
+          onclick="redirecionar('https://wa.me/5545998017803')"
+        />
+        <img
+          src="imagens/logo-instagram.svg"
+          alt="Logo Instagram"
+          class="social-icon-instagram"
+          onclick="redirecionar('https://www.instagram.com/josueobadovski/')"
+        />
+      </div>
+    </footer>
+  </body>
+</html>

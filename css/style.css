@@ -1,0 +1,342 @@
+font-family: "Anton", sans-serif;
+font-family: "Inter", sans-serif;
+font-family: "Nunito Sans", sans-serif;
+font-family: "Poppins", sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.header-container {
+  display: flex;
+  background-color: #bc002d;
+  color: white;
+  padding: 7px;
+}
+
+.header-container h1 {
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 0;
+  font-family: "Monoton", cursive;
+}
+
+.header-container-text {
+  position: relative;
+  background-color: white;
+  width: 150vw;
+  height: 6vh;
+  color: black;
+  padding-left: 1em;
+  text-align: left;
+  line-height: 3rem;
+  margin: 1% 10% 1% 0;
+  font-size: 1.5em;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  border-radius: 12px;
+}
+
+.lupa {
+  position: relative;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  right: 13vw;
+  width: 2em;
+}
+
+.back-button {
+  position: relative;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  right: 60vw;
+  margin-right: 3%;
+}
+
+.back-button-image {
+  width: 20%;
+  background-size: cover;
+}
+
+h1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  text-align: center;
+}
+
+.landing-page {
+  width: 100%;
+  margin-bottom: -10px;
+}
+
+.landing-page img {
+  width: 100%;
+  height: 25em;
+  object-fit: cover;
+}
+
+.container-steps {
+  display: flex;
+  background-color: #252525;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.container-steps .step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-steps .step img {
+  padding: 2rem;
+  width: 189px;
+  height: 189px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.container-steps p {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  text-align: center;
+  width: 189px;
+}
+
+.container-third-screen {
+  height: 35rem;
+  background-color: #bc002d;
+}
+
+.container-products img {
+  width: 29em;
+  height: 29em;
+  margin-left: 23.75%;
+  margin-top: 2.5%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.container-info{
+  margin-top: -30.5em;
+  margin-left: 63em;
+}
+
+.container-info img{
+  width: 26.2em;
+  height: 15em;
+  margin-top: 1em;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.products {
+  background: linear-gradient(180deg, #d6d6d6 11.98%, #4c4c4c 100%);
+  color: white;
+  position: absolute;
+  top: 77rem;
+  left: 33rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0.5rem;
+  font-family: "Anton", sans-serif;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.contact {
+  width: 24em;
+  height: 11.5em;
+  margin-top: 0em;
+  margin-left: 63em;
+  background: #262626;
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  line-height: 1.5rem;
+}
+
+.contact p {
+  font-size: 27px;
+  margin-top: -0.1rem;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+}
+
+.container-register{
+  display: flex;
+  width: 100vw;
+  background-color: #252525;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.container-register-nome input{
+  color: black;
+  font-size: 1.25em;
+  margin-top: 5rem;
+  margin-left: 10rem;
+  width: 30rem;
+  height: 4rem;
+  border-radius: 0.5rem;
+}
+
+.container-register-preco input {
+  color: black;
+  font-size: 1.25em;
+  margin-top: 12rem;
+  margin-left: -31.8rem;
+  margin-bottom: 2rem;
+  width: 30rem;
+  height: 4rem;
+  border-radius: 0.5rem;
+}
+
+.container-register-cadastrar {
+  position: relative;
+  margin: 0;
+  margin-top: 18rem;
+  margin-left: -30rem;
+  margin-right: 1rem;
+  background-color: #bc002d;
+  border: none;
+  color: white;
+  font-family: "Anton", sans-serif;
+  font-size: 2.50em;
+  padding: 2px 25px 2px 25px;
+  border-radius: 0.5rem;
+  margin-bottom: 5rem;
+}
+
+.container-register-excluir {
+  position: relative;
+  margin: 0;
+  background-color: #bc002d;
+  border: none;
+  color: white;
+  font-family: "Anton", sans-serif;
+  font-size: 2.50em;
+  padding: 2px 25px 2px 25px;
+  border-radius: 0.5rem;
+}
+
+.container-register-descrição{
+  float: left;
+  color: black;
+  font-size: 1.25em;
+  margin-top: 1.8rem;
+  margin-left: -4rem;
+  margin-bottom: 2rem;
+  width: 30rem;
+  border-radius: 0.5rem;
+}
+
+.container-register-descrição textarea{
+  width: 100%;
+  height: 100%;
+  margin-left: 4rem;
+  margin-top: 3.2rem;
+  resize: both;
+  border-radius: 0.5rem;
+  color: black;
+  font-size: 1.25em;
+  max-height: 19rem;
+  max-width: 32rem;
+}
+
+.container-register-png{
+  background-color: white;
+  width: 15rem;
+  height: 19.5rem;
+  margin-left: 80rem;
+  margin-top: -23.3rem;
+  border-radius: 0.5rem;
+  }
+
+  .container-register-png button{
+    color: black;
+    width: 8rem;
+    margin-top: 11rem;
+    margin-left: 3.5rem;
+  }
+
+.container-register
+  .custom-file-input {
+  background-color: #bc002d;
+  color: white;
+  padding: 0.5rem 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-family: "Anton", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  max-width: 10rem;
+  margin-top: 6.5rem;
+  margin-left: 2rem;
+}
+
+.container-products-list{
+  background-color: #bc002d;
+  width: 100%;
+  height: auto;
+}
+
+.image-preview-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-top: 1rem;
+  margin-left: 10rem;
+  width: 15.5rem;
+  height: 21.5rem; /* Ajuste a altura conforme necessário */
+  border-radius: 0.5rem;
+}
+
+#image-preview {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.container-footer {
+  display: flex;
+  align-items: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 6.25em;
+  background-color: #101010;
+  line-height: 3rem;
+  margin-top: auto;
+}
+
+.container-footer p{
+  color: white;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  margin-left: 70px;
+}
+
+.social-icon {
+  display: flex;
+  position: absolute;
+  left: 85%;
+  width: 2rem;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
